@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
+
+   <title>missão cheia de escolhas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Jorge acordou em um sabado a tarde, ele estava com muita fome, mas não tinha nada para comer</p>
+            <button class="btn-proximo" data-proximo="1">ir ao mercado</button>
+            <button class="btn-proximo" data-proximo="2">ir a farmacia</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Ele juntou seus trocados,colocou a primeira roupa que viu pela frente e foi ao mercado</p>
+            <button class="btn-proximo" data-proximo="3">ir para o mercado mais perto</button>
+            <button class="btn-proximo" data-proximo="4">ir para o mercado mais distante</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p> na farmacia não tinha comida</p>
+                <button class="btn-proximo" data-proximo="1">ir para o mercado</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p> Jorge foi para o mercado mais perto, mas ele era mais caro, prefere ficar ou ir ao outro mercado?</p>
+                <button class="btn-proximo" data-proximo="4">ir para o mercado mais distante</button>
+                <button class="btn-proximo" data-proximo="5">continuar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p> Jorge foi para o mercado mais distante,ficou muito cansado, mas ele era mais Barato.</p>
+                <button class="btn-proximo" data-proximo="6">ir embora e descansar</button>
+                <button class="btn-proximo" data-proximo="7"> continuar</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p> Jorge tinha pouco dinheiro, entao comprou um pão e uma mortadela</p>
+                <button class="btn-proximo" data-proximo="8">ir embora e comer</button>
+                <button class="btn-proximo" data-proximo="6"> não comprar nada e ir embora</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p> Jorge foi embora, nao comeu nada e morreu de fome</p>
+                <button class="btn-proximo" data-proximo="0">reiniciar</button>
+                <button class="btn-proximo" data-proximo="9">acabar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p> Jorge pegou muitas coisas, isso iria acabarcom se dinheiro </p>
+                <button class="btn-proximo" data-proximo="6">não comprar nada e ir embora</button>
+                <button class="btn-proximo" data-proximo="8">comprar ir embora e comer</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo8.jpg" alt="">
+            <p> Jorge foi embora, comeu, ficou pobre e feliz! </p>
+            <button class="btn-proximo" data-proximo="0">reiniciar</button>
+            <button class="btn-proximo" data-proximo="9">acabar</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo9.png" alt="">
+            <p> Muito obrigada por jogar!!!!!!! </p>
+        </div>
+
+
+
+    </main>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
